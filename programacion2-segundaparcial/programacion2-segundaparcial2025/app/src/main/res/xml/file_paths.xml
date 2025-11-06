@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      Esta es la ruta que el código Java espera para guardar las fotos.
+      Le estamos dando permiso al FileProvider para acceder a la carpeta "Pictures"
+      dentro del directorio de archivos externos de nuestra app.
+    -->
+    <external-files-path
+        name="my_images"
+        path="Pictures" />
+
+</paths>

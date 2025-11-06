@@ -1,0 +1,22 @@
+// settings.gradle
+
+pluginManagement {
+    repositories {
+        // Añade estas líneas para que Gradle encuentre los plugins de Android
+        google()
+        mavenCentral() // <-- Salto de línea aquí
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        // Añádelas aquí también para que encuentre las librerías
+        google()
+        mavenCentral()
+    }
+}
+
+// El resto de tu archivo (los nombres pueden variar)
+rootProject.name = "programacion2-segundaparcial"
+include ':app'

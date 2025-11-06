@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+  <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@+id/etCi" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="CI" />
+    <EditText android:id="@+id/etNombre" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nombre completo" />
+    <EditText android:id="@+id/etDireccion" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Dirección" />
+    <EditText android:id="@+id/etTelefono" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Teléfono" />
+    <View android:layout_height="12dp" android:layout_width="match_parent" />
+    <Button android:id="@+id/btnTakePhoto" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tomar foto (hasta 3)" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+      <ImageView android:id="@+id/iv1" android:layout_width="0dp" android:layout_weight="1" android:layout_height="100dp" android:scaleType="centerCrop"/>
+      <ImageView android:id="@+id/iv2" android:layout_width="0dp" android:layout_weight="1" android:layout_height="100dp" android:scaleType="centerCrop"/>
+      <ImageView android:id="@+id/iv3" android:layout_width="0dp" android:layout_weight="1" android:layout_height="100dp" android:scaleType="centerCrop"/>
+    </LinearLayout>
+    <View android:layout_height="12dp" android:layout_width="match_parent" />
+    <Button android:id="@+id/btnEnviar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Enviar" />
+  </LinearLayout>
+</ScrollView>
